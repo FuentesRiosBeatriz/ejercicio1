@@ -1,0 +1,15 @@
+echo "primer commit branch master" > arch1
+git status
+git add arch1
+git status
+echo "para segundo commit" >> arch1
+git status
+git commit -m "primer commit rama master"
+git status
+git add arch1
+git commit -m "segundo commit rama master"
+git status
+git checkout master
+git checkout
+
+
